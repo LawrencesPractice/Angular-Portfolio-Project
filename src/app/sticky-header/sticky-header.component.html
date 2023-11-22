@@ -1,0 +1,15 @@
+<header [class.selected]="isSelected" [class.hovered]="isHovered" (click)="isSelected = !isSelected" (mouseenter)="isHovered = true" (mouseleave)="isHovered = false">
+    <div class="left-content">
+        <span class="dot"> o</span>
+        <span class="name">Lawrence Tsui</span>
+        <span class="slash">/ </span>
+        <span class="role"> Frontend Engineer</span>
+
+    </div>
+    <div class="right-content">
+      <a href="#" class="header-link">ABOUT ME</a>
+      <a href="#" class="header-link">RESUME</a>
+      <a href="#" class="header-link">PROJECTS</a>
+      <a href="#" class="header-link">CONTACT</a>
+    </div>
+  </header>
