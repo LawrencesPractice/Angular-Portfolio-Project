@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--cookie-banner-primary-color, #fff);
+  }
+  
+  .left-content {
+    margin-left: 40px;
+  }
+  .dot {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 20%;
+    margin-right: 10px;
+
+  }
+  .name {
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+   .slash{
+    margin-left: 20px;
+margin-bottom: 10px;
+    font-size: 8px;
+        vertical-align: super;
+
+   }
+  .role {
+    font-size: 17px;
+  }
+  
+  .right-content {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+  }
+  
+  .header-link {
+    padding: 8px 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color:  #000;
+    font-family: Sans-Serif;
+    font-size: 14px;
+  }
+
+  .header-link:hover,
+.header-link:focus,
+.header-link:active {
+  color: blue;
+}
