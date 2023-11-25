@@ -10,3 +10,17 @@ h1 {
     line-height: 1.5;
     margin-bottom: 20px;
   }
+
+  /* styles.css */
+
+.main-content {
+  background-image: url('/workspaces/Angular-Portfolio-Project/src/assets/background.jpg'); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* Set text color to contrast with the background */
+}
