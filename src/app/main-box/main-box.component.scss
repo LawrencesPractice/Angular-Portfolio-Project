@@ -1,9 +1,9 @@
 .new-box {
     width: 400px;
     height: 50%;
-    background-color: #8a83d2;
+    background-color: #9490cd;
     position: absolute;
-    left: 30%; 
+    left: 25%; 
     top: 20%; 
     border-bottom: 10px solid #555;
     display: flex;
@@ -22,7 +22,7 @@ flex-wrap: nowrap;
     height: 5%;
     background-color: #837776; 
     position: absolute;
-    left: 30%;
+    left: 25%; 
     top: 70%; /* Positioned below the first box */
     display: flex;
     justify-content: space-around; /* Adjust to your preferred spacing */
