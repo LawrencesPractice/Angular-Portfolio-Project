@@ -1,0 +1,22 @@
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Aligns items to each end of the container */
+    align-items: center; /* Centers items vertically within the container */
+    border-top: 2px solid rgba(255, 255, 255, 0.3); /* Transparent white outline */
+    background-color: transparent; /* Transparent black background */
+    color: #b4abab; /* White text color */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+}
+
+.footer-content {
+    max-width: 600px; /* Adjust the maximum width as needed */
+}
+.contact-info {
+    display: flex;
+    gap: 20px; /* Adjust the gap between email and phone as needed */
+    align-items: center; /* Aligns items vertically within the container */
+}
