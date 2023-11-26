@@ -1,0 +1,88 @@
+.new-box {
+    width: 400px;
+    height: 50%;
+    background-color: #8a83d2;
+    position: absolute;
+    left: 30%; 
+    top: 20%; 
+    border-bottom: 10px solid #555;
+    display: flex;
+    flex-direction: row;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+text-align: center;
+
+flex-wrap: nowrap;
+  }
+
+  .second-box {
+    width: 400px;
+    height: 5%;
+    background-color: #837776; 
+    position: absolute;
+    left: 30%;
+    top: 70%; /* Positioned below the first box */
+    display: flex;
+    justify-content: space-around; /* Adjust to your preferred spacing */
+    align-items: center;
+  }
+.main-text{
+
+}
+.second-box i {
+    font-size: 2em; /* Adjust the size of the LinkedIn icon */
+    margin-right: 5px; /* Add margin for spacing */
+  }
+.sub-text  {
+    text-transform: uppercase;
+    font-family: 'Your Good-Looking Font', sans-serif; /* Replace with the actual font name */
+  }
+.separator-line {
+    width: 10%; /* Adjust the width of the separator line */
+    border-top: 2px solid #3498db; /* Blue color for the separator line */
+    
+  }
+  .circular-image {
+    background-image: url('../../assets/profile.jpeg');
+
+    width: 200px; /* Adjust the size of the circular image */
+    height: 200px;
+    border-radius: 50%; /* Creates a circular shape */
+    overflow: hidden; /* Ensures the image stays within the circular boundary */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .circular-image img {
+    width: 100%; /* Ensures the image fills the circular container */
+    height: 100%;
+    object-fit: cover; /* Maintains the aspect ratio while covering the container */
+  }
+
+
+.custom-button {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #333; /* Change to your preferred hover color */
+  }
+  
+  .linkedin-button {
+    background-color: #0077B5; /* LinkedIn color */
+  }
+  
+  .github-button {
+    background-color: #333; /* GitHub color */
+  }
